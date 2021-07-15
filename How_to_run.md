@@ -1,7 +1,7 @@
 **Steps to run the code on your device**
 --------------------------------------
 ### 1. Download the dataset
-You first need to download the ROOT data file: [16O_C2H4_200_01.root](https://github.com/rotolanna/Software_and_Computing_Project.git).
+You first need to download the ROOT data file: [16O_C2H4_200_01.root](https://drive.google.com/drive/u/0/folders/1dijKbeFi0lwjsOWrZnbe0rr8ZFKwqm6Y).
 
 Then, move the ROOT File into your code folder, in which there is the Analysis_input. This latter contains the beam features (mass number, charge, kinetic energy in GeV) and 
 the name of the ROOT file. 
