@@ -5,6 +5,7 @@ This document is useful if you are interested in performing a similar analysis o
 1. Download the Root data (ex. <*name_file*>.root). Add it in the same code folder and write <*name_file*>.root in the Analysis_input file.
 
 2. If you have more than one Root file, you just add all the data in the code folder and write their name in the Analysis_input file, as: 
+
 `Mass number beam value`
 
 `Charge beam value`
