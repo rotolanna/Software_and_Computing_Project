@@ -6,10 +6,15 @@ This document is useful if you are interested in performing a similar analysis o
 
 2. If you have more than one Root file, you just add all the data in the code folder and write their name in the Analysis_input file, as: 
 `Mass number beam value`
+
 `Charge beam value`
+
 `Kinetic enenrgy value`
+
 ` <*name_file_1*>.root`
+
 ` <*name_file_2*>.root`
+
 `<*name_file_3*>.root `
 
 3. Open *Booking.cpp*, *Generation.cpp* and *Reconstruction.cpp* and write your plot code in *Fill_Histo* function in order to see the results of your analysis. 
