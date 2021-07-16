@@ -43,6 +43,7 @@ Now, run the Analysis.cpp file :
 `./Analysis`
                                                                                                                                      
 In order to see the output.root file, write the command `root`. Then `new TBrowser` and click the enter key. 
+If you have just the Ubuntu bash on another OS, you've to install on your OS this program: [MobaXterm](https://mobaxterm.mobatek.net/download.html) and open it,  in order to see any images/plots through Ubuntu.
 
 Once you've opened the TBrowser, you've to find the *out.root* file among the ROOT folders. Click on it and it will be divided in two folders, called *Generation* and *Reconstruction*.
 Both contain some plots/results of your analysis of beam fragmentation on target.

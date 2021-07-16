@@ -22,6 +22,8 @@ This document is useful if you are interested in performing a similar analysis o
 
 4. If you need other functions, you have to add the prototype in the .h of the used class and the implementation in the corresponding .cpp. Otherwise, you just create a new class (*class_name.h*) and the corresponding *class_name.cpp*. Then, in the Analysis.cpp there is the main function, you will create a pointer to your Class Objects and recall the functions implemented in *class_name.cpp* .
 
-5. To run the code, you' ll find the instructions in the [How_to_run](https://github.com/rotolanna/Software_and_Computing_Project/blob/master/how_to_guides/How_to_run.md) file.
+5. If you need to change the resolutions of the detectors, open the par_detector.txt in the Project_01 folder and modify it with new values.
+
+6. To run the code, you' ll find the instructions in the [How_to_run](https://github.com/rotolanna/Software_and_Computing_Project/blob/master/how_to_guides/How_to_run.md) file.
 
 
