@@ -11,6 +11,6 @@ This folder contains all the informations related to the references used for the
   radiobiology motivations of FOOT and of the detector design, summarizing many years of work of the different collaborations, design optimization and performance study.
   
 * [Apparato_FOOT_laureandi](https://github.com/rotolanna/Software_and_Computing_Project/blob/master/Reference%20Guides/Apparato_FOOT_laureandi.pdf) : lectures slides on a brief
-  description of the FOOT apparatus, some methods to reconstruct mass number, charge and cross section of nuclear projectile fragments and the latest results of the 
+  description of the FOOT apparatus, some methods to reconstruct mass number, charge and nuclear cross section of projectile fragments and the latest results of the 
   FOOT experiment.
 
