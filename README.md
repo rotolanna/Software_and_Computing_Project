@@ -58,9 +58,9 @@ Through these values, I implemented a way to get all the quantities which are ex
 
 NOTE: from *Reconstruction.h* :
 
-`// &emsp;&emsp;&emsp;&emsp; H   He  Li  Be    B    C     N    O    D    T  He3`
+```//                                                                                      H   He  Li  Be    B    C     N    O    D    T  He3
 
-`int                     charge_gen_frag[NUMFRAG] = {1,   2,   3,   4,    5,    6,    7,    8,   1,   1,   2 }; `
+int                     charge_gen_frag[NUMFRAG] = {1,   2,   3,   4,    5,    6,    7,    8,   1,   1,   2 }; ```
 
 ![Z_reconstructed](https://github.com/rotolanna/Software_and_Computing_Project/blob/master/Project/Z_reconstructed.jpg).   
  Note: on y-axis, the right label is *Events*.
