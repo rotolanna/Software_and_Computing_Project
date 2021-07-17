@@ -4,7 +4,7 @@ Project for the Software and Computing exam.
 
 ### List of the folders in the repository
 
-[Project](https://github.com/rotolanna/Software_and_Computing_Project/tree/master/Project): this folder contains the whole code of the project and some graphs and informations related to the representation of the final results. Quick link to the program is here.
+[Project](https://github.com/rotolanna/Software_and_Computing_Project/tree/master/Project): this folder contains the whole code of the project and some graphs and informations related to the representation of the final results. 
 
 [Reference Guides](https://github.com/rotolanna/Software_and_Computing_Project/tree/master/Reference%20Guides): this folder contains all the reference guides related to understand how work the FOOT experiment.
 
