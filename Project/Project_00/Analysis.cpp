@@ -7,7 +7,7 @@ extern TStyle*  gStyle;
 
 int main(int argc, char *argv[]){
 	
-//----plot setting-----
+//----plot setting----
 
   gStyle->SetPalette(1);
   gROOT->SetStyle("Plain");
