@@ -29,7 +29,7 @@ The FOOT experiment (*FragmentatiOn Of Target*) is designed to study these proce
 nuclei (16O,12C) fragmentation induced by 150-250 AMeV proton beam will be studied via inverse
 kinematic approach. 16O,12C therapeutic beams, with the quoted kinetic energy, collide
 on graphite and hydrocarbons target to provide the cross section on Hydrogen. This configuration
-explores also the projectile fragmentation of these 16O,12C beams. ![The detector][file://detector.png] includes a
+explores also the projectile fragmentation of these 16O,12C beams. The detector/detector.png includes a
 magnetic spectrometer based on silicon pixel detectors and drift chamber, a scintillating crystal
 calorimeter with TOF capabilities, able to stop the heavier fragments produced, and a DE detector
 to achieve the needed energy resolution and particle identification.
