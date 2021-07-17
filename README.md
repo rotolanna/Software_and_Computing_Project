@@ -56,15 +56,6 @@ In order to identify the fragments, one must find the charge Z and the mass numb
 the Reconstruction class manipulates the MC informations using a *smearing function* and thanks to this procedure, I obtained events with data very close to the real ones.
 Through these values, I implemented a way to get all the quantities which are exploited by the *BeteBloch function* to extract Z. 
 
-NOTE: from *Reconstruction.h* :
-
-```c++                                                                              
- 
-  //                                                                       H   He  Li  Be    B    C     N    O    D    T  He3
-
-int    charge_rec_frag[NUMFRAG] = {1,   2,   3,   4,    5,    6,    7,    8,   1,   1,   2 };
-```
-
 ![Z_reconstructed](https://github.com/rotolanna/Software_and_Computing_Project/blob/master/Project/Z_reconstructed.jpg).   
  Note: on y-axis, the right label is *Events*.
 
