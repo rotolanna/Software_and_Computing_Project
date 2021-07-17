@@ -6,6 +6,8 @@ using namespace TMath;
 extern TStyle*  gStyle;  
 
 int main(int argc, char *argv[]){
+	
+//----plot setting-----
 
   gStyle->SetPalette(1);
   gROOT->SetStyle("Plain");
@@ -13,13 +15,17 @@ int main(int argc, char *argv[]){
   gStyle->SetOptFit(11111111);
   gStyle->SetOptStat(11111111);
 
+//-----Initialize----------
+
   casos->SetSeed(1234); 
   Initialize();
   Openfiles();
   status = Booking(f_out);
   Ev = new Evento();  
   status = Ev->FindBranches(chain_t,pevstr);
-  
+
+//-------MC simulation----------
+   
   for (int kk = 0; kk<chain_t->GetEntries(); kk++){  
   //  for (int kk = 0; kk<600; kk++){  
     current_event++; 
@@ -101,7 +107,7 @@ void       Openfiles(){
 }
 
 
-int Booking(TFile *f_out){
+int Booking(TFile *f_out){ //print plots of Generation function
 
   char nam[200], tit[200];  
 
@@ -116,7 +122,7 @@ int Booking(TFile *f_out){
 }
 
 
-void      Initialize_in_each_event(){
+void      Initialize_in_each_event(){ //initialize all the particle parameters in each event
 
   for(int f=0; f<max_tra_ev; f++) { 
     Initialize_zero(tra2[f]);        
@@ -369,7 +375,7 @@ void       Fill_tracks_detector(EVENTO_STRUCT *pevstr){
 
 
 
-void     Fill_tracks_frag(){
+void     Fill_tracks_frag(){ //fill the matrix tra_frag[current_track] [current_fragment]
 
   float ainf = 0; float asup = 0.; 
 
@@ -387,7 +393,7 @@ void     Fill_tracks_frag(){
 
 }
 
-void Fill_histo_tracks(){
+void Fill_histo_tracks(){ //fill the histograms
 
   f_out->cd();
   char nam[200];
