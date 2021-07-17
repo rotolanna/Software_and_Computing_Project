@@ -24,7 +24,7 @@ To run the code, you need first to download and install [Ubuntu](https://phoenix
 
 Now, install the [Cmake](https://cmake.org/install/) for Linux system and [GNU Make Compiler](https://www.howtoinstall.me/ubuntu/18-04/make/).
 
-Then, install, through the terminal, the ROOT program from the [site ROOT Cern](https://root.cern/). You need at least version 6 (I have the 6.10.04 version).
+Then, install, through the terminal, the ROOT program from the [site ROOT Cern](https://root.cern/) and its libraries. You need at least version 6 (I have the 6.10.04 version).
 ROOT uses the CMake cross-platform build-generator tool as the primary build system.
 CMake generates the files needed by your build tool (GNU make, Visual Studio, etc) for building ROOT.
 
