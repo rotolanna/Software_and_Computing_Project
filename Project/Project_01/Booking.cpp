@@ -106,7 +106,7 @@ int Booking::booking_rec(TFile *f_out){
 
     c = new TH1D (nam, tit, 500, 0.,12.); 
     c->GetXaxis()->SetTitle("Z_reco");
-    //c->GetYaxis()->SetRangeUser(0.,1000000.);
+    c->GetYaxis()->SetTitle("Events");
     
  } 
   
