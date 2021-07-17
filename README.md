@@ -59,7 +59,8 @@ Through these values, I implemented a way to get all the quantities which are ex
 NOTE: from *Reconstruction.h* :
 
 ```c++                                                                              
-                                                                        // H   He  Li  Be    B    C     N    O    D    T  He3
+ 
+  //                                                                       H   He  Li  Be    B    C     N    O    D    T  He3
 
 int    charge_rec_frag[NUMFRAG] = {1,   2,   3,   4,    5,    6,    7,    8,   1,   1,   2 };
 ```
