@@ -40,6 +40,8 @@ to achieve the needed energy resolution and particle identification.
 
 My work is based on simulated (aka: fake) events thanks to [FLUKA](http://www.fluka.org/fluka.php) which is a fully integrated particle physics MonteCarlo simulation package.  
 
+The Root data are based on a 200 MeV\u beam of 16O on a C2H4 target.
+
 At first I started with the Project_00 code, which is mostly in C language. It contains the definition of the *Event* class and the main function. The Event is composed of all the variables that are related to the particle 
 informations in each part of the detectors. 
 
@@ -57,7 +59,7 @@ the Reconstruction class manipulates the MC informations using a *smearing funct
 Through these values, I implemented a way to get all the quantities which are exploited by the *BeteBloch function* to extract Z. 
 
 ![Z_reconstructed](https://github.com/rotolanna/Software_and_Computing_Project/blob/master/Project/Z_reconstructed.jpg).   
- Note: on y-axis, the right label is *Events*.
+ Note: on y-axis, the right label is *Events*. 
 
 Then, the FOOT experiment provides  three formulas to derive A.
 
