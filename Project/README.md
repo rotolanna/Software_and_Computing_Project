@@ -14,3 +14,4 @@ This folder contains all the informations related to the code and the results of
    
 3. **Mass Plot** : a power point with some results. Also, fit parameters are shown. 
 4. **Z_reconstructed** : the charge reconstructed plot from the projectile fragmentation on target.
+5. **detector** : the detector scheme  of the FOOT experiment, used for Generation.cpp and Reconstruction.cpp implementations.
