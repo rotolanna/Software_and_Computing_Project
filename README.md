@@ -6,7 +6,7 @@ Project for the Software and Computing exam.
 
 [Project](https://github.com/rotolanna/Software_and_Computing_Project/tree/master/Project): this folder contains the whole code of the project and some graphs and informations related to the representation of the final results. 
 
-[Reference Guides](https://github.com/rotolanna/Software_and_Computing_Project/tree/master/Reference%20Guides): this folder contains all the reference guides related to understand how work the FOOT experiment.
+[Reference Guides](https://github.com/rotolanna/Software_and_Computing_Project/tree/master/Reference%20Guides): this folder contains all the reference guides related to understand how  the FOOT experiment works.
 
 [How-to guides](https://github.com/rotolanna/Software_and_Computing_Project/tree/master/how_to_guides): this folder contains all the guides necessary to execute the program on your device and to reproduce the same simulation with your ROOT data.
 
