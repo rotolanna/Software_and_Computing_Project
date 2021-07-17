@@ -2,7 +2,7 @@
 Project for the Software and Computing exam.
 
 
-###List of the folders in the repository
+### List of the folders in the repository
 
 [Project](https://github.com/rotolanna/Software_and_Computing_Project/tree/master/Project): this folder contains the whole code of the project and some graphs and informations related to the representation of the final results. Quick link to the program is here.
 
