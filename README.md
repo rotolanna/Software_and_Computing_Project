@@ -55,6 +55,10 @@ After that,  the * Reconstruction* class is created. A real case is simulated, s
 In order to identify the fragments, one must find the charge Z and the mass number A. I created a function that measures the parameters of the tracks, such as position, momentum and the deposited energy.  At this step, 
 the Reconstruction class manipulates the MC informations using a *smearing function* and thanks to this procedure, I obtained events with data very close to the real ones.
 Through these values, I implemented a way to get all the quantities which are exploited by the *BeteBloch function* to extract Z. 
+NOTE: from *Reconstruction.h* :
+
+`//                                                                                          H   He  Li  Be    B    C     N    O    D    T  He3`
+`int                     charge_gen_frag[NUMFRAG] = {1,   2,   3,   4,    5,    6,    7,    8,   1,   1,   2 }; `
 
 ![Z_reconstructed](https://github.com/rotolanna/Software_and_Computing_Project/blob/master/Project/Z_reconstructed.jpg).   
  Note: on y-axis, the right label is *Events*.
