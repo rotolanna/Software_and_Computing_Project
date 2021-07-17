@@ -45,8 +45,11 @@ The Root data are based on a 200 MeV\u beam of 16O on a C2H4 target.
 At first I started with the Project_00 code, which is mostly in C language. It contains the definition of the *Event* class and the main function. The Event is composed of all the variables that are related to the particle 
 informations in each part of the detectors. 
 
-In order to make the code easy for other people to use and easy to edit, I decided to split it into blocks using the classes in c ++. 
-I created the first class *Initialization* which sets the experimental informations about each detectors and the beam(Z,A,Energy).
+In order to make the code easy for other people to use and easy to edit, I decided to split it into blocks using the classes in c ++. All the functions, recalled in the main of Analysis.cpp,  
+are, in turn, divided into a subset of functions that perform different sub-tasks. In this way, you can change or add code lines and test or comment it  without affecting the integrity
+of the total function used in the main. 
+ 
+I created the first class *Initialization* which sets the experimental informations about each detectors and the beam (Z, A, Energy).
 Then, I added the *Generation* class. It deals with all the quantities directly generated from MonteCarlo (taken from the ROOTple data) and fills the related plots.
 
 I included a new  *Booking* class  to show the graphs filled by Generation.cpp and Reconstruction.cpp.
