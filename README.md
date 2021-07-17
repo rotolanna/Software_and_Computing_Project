@@ -29,7 +29,7 @@ The FOOT experiment (*FragmentatiOn Of Target*) is designed to study these proce
 nuclei (16O,12C) fragmentation induced by 150-250 AMeV proton beam will be studied via inverse
 kinematic approach. 16O,12C therapeutic beams, with the quoted kinetic energy, collide
 on graphite and hydrocarbons target to provide the cross section on Hydrogen. This configuration
-explores also the projectile fragmentation of these 16O,12C beams. ![The detector](https://www.researchgate.net/figure/FOOT-detector-electronic-setup-left-and-emulsion-chamber-setup-right_fig1_341130953) includes a
+explores also the projectile fragmentation of these 16O,12C beams. ![The detector]() includes a
 magnetic spectrometer based on silicon pixel detectors and drift chamber, a scintillating crystal
 calorimeter with TOF capabilities, able to stop the heavier fragments produced, and a DE detector
 to achieve the needed energy resolution and particle identification.
@@ -53,7 +53,7 @@ After that,  the * Reconstruction* class is created. A real case is simulated, s
 In order to identify the fragments, one must find the charge Z and the mass number A. I created a function that measures the parameters of the tracks, such as position, momentum and the deposited energy.  At this step, 
 the Reconstruction class manipulates the MC informations using a *smearing function* and thanks to this procedure, I obtained events with data very close to the real ones.
 Through these values, I implemented a way to get all the quantities which are exploited by the *BeteBloch function* to extract Z. 
-Here the link for the [Reconstructed charge](https://github.com/rotolanna/Software_and_Computing_Project/blob/master/Project/Z_reconstructed.jpg). Note: on y-axis, the right label is *Events*.
+Here the link for the [Reconstructed charge](https://github.com/rotolanna/Software_and_Computing_Project/blob/master/Project/Z_reconstructed.jpg).    Note: on y-axis, the right label is *Events*.
 
 Then, the FOOT experiment provides  three formulas to derive A.
 
@@ -69,7 +69,7 @@ Then, the FOOT experiment provides  three formulas to derive A.
 momentum and kinetic energy reconstruction. The calorimeter is the detector that suffers for the energy leakage so,  A_2 and A_3 present a correlated tail at low and high values respectively, dependent on the
 energy leakage, especially from neutron emission inside it.
  Here the link for my [Reconstructed A](https://github.com/rotolanna/Software_and_Computing_Project/blob/master/Project/Mass%20Plot.pptx).
- Note: For heavier fragments I am still studying to understand the reason for a shift towards higher values ​​of A.  
+ Note: For heavier fragments I am still studying to understand the reason for a shift, greater than expected, towards higher values ​​of A.  
 
 
 
