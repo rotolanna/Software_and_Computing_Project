@@ -56,7 +56,7 @@ In order to identify the fragments, one must find the charge Z and the mass numb
 the Reconstruction class manipulates the MC informations using a *smearing function* and thanks to this procedure, I obtained events with data very close to the real ones.
 Through these values, I implemented a way to get all the quantities which are exploited by the *BeteBloch function* to extract Z. 
 
-! [Z_reconstructed](https://github.com/rotolanna/Software_and_Computing_Project/blob/master/Project/Z_reconstructed.jpg).   
+![Z_reconstructed](https://github.com/rotolanna/Software_and_Computing_Project/blob/master/Project/Z_reconstructed.jpg).   
  Note: on y-axis, the right label is *Events*.
 
 Then, the FOOT experiment provides  three formulas to derive A.
