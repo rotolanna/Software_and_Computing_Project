@@ -4,7 +4,7 @@
 
 This folder contains all the informations related to the code and the results of the project itself.
 
-1. **Project_00** : the basic structure of my code in C language. It's composed of the function main() and the first implemented functions in order to generate 
+1. **Project_00** : the start point of the final version of my code (*Project_01*) in C language. It's composed of the function main() and the first implemented functions in order to generate 
    a MonteCarlo simulation on a particle beam which passes through all the FOOT detectors. It gives the MC quantities related to the different particles (such as
    the "generated" momentum, kinetic enengy, betha, gamma etc..).
 
