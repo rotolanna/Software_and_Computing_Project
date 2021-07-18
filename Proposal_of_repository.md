@@ -31,7 +31,7 @@ The Root data are based on a 200 MeV\u beam of 16O on a C2H4 target.
 At first I started with the Project_00 code, which is mostly in C language. It contains the definition of the *Event* class and the main function. The Event is composed of all the variables that are related to the particle 
 informations in each part of the detectors. 
 
-In order to make the code easy for other people to use and easy to edit, I decided to split it into blocks using the classes in c ++. All the functions, recalled in the main of Analysis.cpp,   are, in turn, divided into a subset 
+Afterwards, I made Project_01 in order to make the code easy for other people to use and easy to edit, so I decided to split it into blocks using the class concept in c ++. All the functions, recalled in the main of Analysis.cpp,   are, in turn, divided into a subset 
 of functions that perform different sub-tasks. In this way, you can change or add code lines and test or comment it  without affecting the integrity of the total function used in the main. 
  
 I created the first class *Initialization* which sets the experimental informations about each detectors and the beam (Z, A, Energy).
