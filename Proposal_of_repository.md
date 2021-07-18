@@ -59,7 +59,7 @@ Then, the FOOT experiment provides  three formulas to derive A.
 
 
  The peak position is centered around the expected values with in some cases a shift completely included in the resolution;
- the latter is about 5% for A_2 and slightly worst for A_1 reconstruction modes, while it is a bit larger than 10% in the A_3 case. These resolutions depend on the input smearing applied to the time of flight, 
+ the latter is about 5% for A_1 and slightly worst for A_2 reconstruction modes, while it is a bit larger than 10% in the A_3 case. These resolutions depend on the input smearing applied to the time of flight, 
 momentum and kinetic energy reconstruction. The calorimeter is the detector that suffers for the energy leakage so,  A_2 and A_3 present a correlated tail at low and high values respectively, dependent on the
 energy leakage, especially from neutron emission inside it.
  Here the link for my [Reconstructed A.ppt](https://github.com/rotolanna/Software_and_Computing_Project/blob/master/Project/Mass%20Plot.pptx).
